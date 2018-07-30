@@ -9,6 +9,7 @@ function readyNow(){
 
 let buttonCounter = 0;
 
+//this was counting the button clicks on 'generate', but has stopped working. 
 function generate() {
 buttonCounter ++;
 $('body').append('<div class="buttonHolder"></div>');
