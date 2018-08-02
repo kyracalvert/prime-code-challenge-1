@@ -19,11 +19,3 @@ console.log('button clicked:', buttonCounter);
 
 }
 
-function swap() {
-
-}
-
-function remove() {
-    console.log('remove');
-    $(this).parent().parent().remove();
-}
